@@ -1,0 +1,24 @@
+# THIS PROGRAM GETS user_number AND IF user_number IS GREATER THEN list[number]
+# SO ADD list[number] TO THE NEW LIST
+
+# List Settings:
+the_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+new_list = []
+
+# Getting Input:
+user_number = int(input("Pls input a number: "))
+
+# Printing
+print("The original list is: ")
+print(the_list)
+
+# For Loop:
+for x in the_list:
+    # If Statemant
+    if x < user_number:
+        # Adding New Object To The List
+        new_list.append(x)
+
+# Printing
+print ("The custom list is: ")
+print (new_list)
