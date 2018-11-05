@@ -1,0 +1,28 @@
+'''
+
+ THIS PROGRAM GETTING 2 NUMBERS FROM THE USER AND CHECKS
+  # 1. if THE user_number IS EVEN OR ODD
+  # 2. if THE user_number IS A MULTIPLY OF 4
+  # 3. WHICH NUMBER IS GREATER (user_number or user_number2)
+  # 4. if THE DVISION OF BOTH NUMBERS IS EVEN (user_number or user_number2)
+
+'''
+user_number = int(input("Enter a number: "))
+user_number2 = int(input("Enter second number: "))
+
+if user_number % 2 == 0:
+    print("your number is even")
+else:
+    print("your number is odd")
+
+if user_number % 4 == 0:
+    print("your number is a multiply of 4")
+
+# Check
+if user_number > user_number2:
+    divide = user_number / user_number2
+else:
+    divide = user_number2 / user_number
+
+if divide % 2 == 0 :
+    print("The dvision of the numbers is even.")
